@@ -56,3 +56,22 @@ Canvas API: For drawing on the image.
 CSS: For styling the application.
 
 
+steps to How it Works with images : 
+
+Interface of the Project : 
+
+![interface](https://github.com/user-attachments/assets/83cc5291-58a4-490f-a144-fe445dd89fdb)
+
+After click "upload image" button :
+
+![after uploading image](https://github.com/user-attachments/assets/dd0989ec-c315-4f11-87bd-56b6964bb78b)
+
+After drawing on the image with brushes : 
+
+![after drawing image](https://github.com/user-attachments/assets/db6a174b-85e8-4ddd-9b8d-ec6cb5745238)
+
+After click Save Button and if you want to download the updated image then click export button :
+
+![after saving](https://github.com/user-attachments/assets/8cbd2dc1-0fb3-47c9-8b8d-ff696c7b912d)
+
+
