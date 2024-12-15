@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+#root{
+  background-color: black;
+}
+
+.main{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: black;
+  color: white;
+  max-width: none; 
+  font-family: "Istok Web", sans-serif;
+}
+
+.main .image-display{
+  height: 100%;
+  width: 30%;
+  background-color: rgb(35, 35, 35);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2rem 1rem;
+  overflow-y: scroll;
+  scrollbar-width: 1px;
+  overflow-y: auto;
+
+}
+
+.main .image-display h2{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.main .image-display .uploadimage{
+  background-color: #63f;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 20px;
+}
+
+.main .image-display .uploadimage p{
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 10px 0px 0px 0px;
+}
+
+.main .image-display .uploadimage img{
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid black; */
+  padding: 10px 10px;
+  border-radius: 20px;
+  /* max-width: 450px;
+  max-height: 350px; */
+}
+
+
+
+
+.main .image-display .updatedimage{
+  background-color: #63f;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 10px;
+  gap: 20px;
+}
+
+.main .image-display .updatedimage p{
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 10px 0px 0px 0px;
+}
+
+.main .image-display .updatedimage img{
+  height: 100%;
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 20px;
+  /* max-width: 350px;
+  max-height: 350px; */
+}
+
+.app-container {
+  text-align: center;
+  background-color: #252424;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.app-container h1{
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.canvas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .buttons{
+  height: 100%;
+  width: 20%;
+  background-color: rgb(26, 26, 26);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 3rem 1rem;
+  justify-content: space-between;
+}
+
+.main .buttons .logo_tools{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.main .buttons .logo_tools img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  object-fit: contain;
+  object-position: center;
+  border: 1px solid #63f;
+}
+
+.main .buttons .logo_tools h2{
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.main .buttons .btns{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main .buttons .btns .updatebtn{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+
+.main .buttons .btns .updatebtn i{
+  font-size: 20px;
+}
+
+.main .buttons .inp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .buttons .inp .label{
+  font-size: 1.3rem;
+  color: white;
+  padding: 10px 20px;
+  background-color: #63f;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.main .buttons .inp input{
+  display: none;
+}
+
+.main .brushes{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.main .brushes .first, .second{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.main .brushes .first label, .second label{
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.main .brushes .first input, .second input{
+  width: 45%;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid black;
+}
+
